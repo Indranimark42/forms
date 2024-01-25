@@ -23,15 +23,22 @@
           <ul>
             <li>
               <label for="username">Username</label>
-              <input type="text" name="user-name" id="username" required/>
+              <input type="text" name="user-name" id="username" required placeholder="Eg:Max"/>
             </li>
             <li>
               <label for="pass">Password</label>
-              <input type="password" name="password" id="pass" required minlength="7" maxlength="12" />
+              <input
+                type="password"
+                name="password"
+                id="pass"
+                required
+                minlength="7"
+                maxlength="12"
+              />
             </li>
             <li>
               <label for="email">Email address</label>
-              <input type="email" name="user-email" id="email" required/>
+              <input type="email" name="user-email" id="email" required placeholder="xyz@abc.com" />
             </li>
           </ul>
         </section>
@@ -40,11 +47,26 @@
           <ul>
             <li>
               <label for="age">Age</label>
-              <input type="number" step="1" name="user-age" id="age" required min="18" max="99" />
+              <input
+                type="number"
+                step="1"
+                name="user-age"
+                id="age"
+                required
+                min="18"
+                max="99"
+              />
             </li>
             <li>
               <label for="birthdate"> Birth date</label>
-              <input type="date" id="birthdate" name="user-birthdate" required min="1923-01-01" max="2002-12-31"/>
+              <input
+                type="date"
+                id="birthdate"
+                name="user-birthdate"
+                required
+                min="1923-01-01"
+                max="2002-12-31"
+              />
             </li>
             <li>
               <label for="fav-color">Favourite color:</label>
@@ -70,59 +92,60 @@
               name="verify"
               id="text-message"
               value="text-mess"
-              />
-              <label for="text-message">Via text message</label>
-            </li>
-            <li class="form-inline-control">
-              <input type="radio" name="verify" id="phone-call" value="phone" />
+            />
+            <label for="text-message">Via text message</label>
+          </li>
+          <li class="form-inline-control">
+            <input type="radio" name="verify" id="phone-call" value="phone" />
             <label for="phone-call">phone call</label>
           </li>
           <li class="form-inline-control">
             <input
-            type="radio"
-            name="verify"
-            id="verify-email"
-            value="email1"
+              type="radio"
+              name="verify"
+              id="verify-email"
+              value="email1"
             />
             <label for="verify-email">Via email</label>
           </li>
         </section>
         <section>
           <h2>Contact</h2>
-        <li class="forms-inline-control">
-          <input
-          type="checkbox"
-          id="phone-contact"
-          name="phone1"
-          value="contact"
-          />
-          <label for="phone-contact">Contact via phone</label>
-        </li>
-        <li class="forms-inline-control">
-          <input
-          type="checkbox"
-          id="email-contact"
-          name="email"
-          value="contact1"
-          />
-          <label for="email-contact">Contact via email</label>
-        </li>
-      </section>
-      <section> 
-        <h2>Terms and Conditions</h2>
-        <p>
-          I hereby accept the terms and conditions applied by clicking "Confirm"
-        </p>
-        <li class="forms-inline-control">
-          <input type="checkbox" id="agree-terms" name="terms" />
-          <label for="agree-terms">Agree to terms</label>
-        </li>
-      </section> 
-      <section>
-        <button type="reset">Clear</button>
-        <button type="submit">Confirm</button>
-      </section>
-    </form>
-  </main>
-</body>
+          <li class="forms-inline-control">
+            <input
+              type="checkbox"
+              id="phone-contact"
+              name="phone1"
+              value="contact"
+            />
+            <label for="phone-contact">Contact via phone</label>
+          </li>
+          <li class="forms-inline-control">
+            <input
+              type="checkbox"
+              id="email-contact"
+              name="email"
+              value="contact1"
+            />
+            <label for="email-contact">Contact via email</label>
+          </li>
+        </section>
+        <section>
+          <h2>Terms and Conditions</h2>
+          <p>
+            I hereby accept the terms and conditions applied by clicking
+            "Confirm"
+          </p>
+          <li class="forms-inline-control">
+            <input type="checkbox" id="agree-terms" name="terms" />
+            <label for="agree-terms">Agree to terms</label>
+          </li>
+        </section>
+        <section>
+          <button type="reset">Clear</button>
+          <button type="submit">Confirm</button>
+        </section>
+      </form>
+    </main>
+  </body>
 </html>
