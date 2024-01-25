@@ -55,6 +55,18 @@ input:focus{
     color: black;
 }
 
+#fav-color option:nth-child(1){
+   color: red;
+}
+
+#fav-color option:nth-child(2){
+  color: blue;
+}
+
+#fav-color option:nth-child(3){
+  color: green;
+}
+
 button {
   margin-bottom: 0.5rem;
   margin-top: 1rem;
