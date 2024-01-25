@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="/" method="GET">
+      <label for="username">Username</label>
+      <input type="text" name="user-name" id="username" />
+      <label for="pass">Password</label>
+      <input type="password" name="password" id="pass" />
+      <label for="email">Email address</label>
+      <input type="email" name="user-email" id="email" />
+      <label for="age">Age</label>
+      <input type="number" step="1" name="user-age" id="age" />
+      <label for="birthdate"> Birth date</label>
+      <input type="date" id="birthdate" name="user-birthdate" />
+      <button>Confirm</button>
+      <hr />
+      <label for="fav-color">Favourite color:</label>
+      <select id="fav-color" name="favorite-color">
+        <option>Red</option>
+        <option>Blue</option>
+        <option>Green</option>
+      </select>
+      <h2>Verification</h2>
+      <div class="form-inline-control">
+        <input type="radio" name="verify" id="text-message" value="text-mess" />
+        <label for="text-message">Via text message</label>
+      </div>
+      <div class="form-inline-control">
+        <input type="radio" name="verify" id="phone-call" value="phone" />
+        <label for="phone-call">phone call</label>
+      </div>
+      <div class="form-inline-control">
+        <input type="radio" name="verify" id="verify-email" value="email1" />
+        <label for="verify-email">Via email</label>
+      </div>
+      <div class="forms-inline-control">
+        <input type="checkbox" id="phone-contact" name="phone1" value="contact"/>
+        <label for="phone-contact">Contact via phone</label>
+      </div>
+    <div class="forms-inline-control">
+        <input type="checkbox" id="email-contact" name="email" value="contact1"/>
+        <label for="email-contact">Contact via email</label>
+    </div>
+    <p>I hereby accept the terms and conditions applied by clicking "Confirm"</p>
+    <div class="forms-inline-control">
+      <input type="checkbox" id="agree-terms" name="terms"/>
+      <label for="agree-terms">Agree to terms</label>
+    </div>
+    <div class="textareas">
+    <label for="usermessage">Your message</label>
+    <textarea id="usermessage"></textarea>
+    </div>
+    </form>
+  </body>
+</html>

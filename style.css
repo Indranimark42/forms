@@ -1,0 +1,129 @@
+html {
+  background-color: black;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  margin: 8rem;
+  padding: 5rem 5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+form {
+  margin: 3rem auto;
+  width: 30rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+label {
+  color: black;
+  font-weight: 600;
+}
+
+input,select {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+  border: 1px solid rgb(184, 184, 184);
+  padding: 0.25rem;
+    border-radius: 0.2rem;
+}
+
+input:focus{
+    background-color: rgb(241, 241, 140);
+    border-color: black;
+    color: black;
+}
+
+button {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  display: block;
+  font-family:"Lexend Deca", sans-serif;
+  border-radius: 0.3rem;
+  color: white;
+  background-color: black;
+  font-size: large;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover{
+    background-color: rgb(64, 63, 63);
+    cursor:pointer;
+}
+
+.form-inline-control{
+  display: flex;
+}
+
+.form-inline-control label{
+  margin-top: 0.25rem;
+}
+
+.form-inline-control input{
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+/*a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}*/
+
+.forms-inline-control{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.forms-inline-control label{
+  margin-top: 0.25rem;
+}
+
+.forms-inline-control input{
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+
+.textareas{
+  margin-top: 1rem;
+}
+
+textarea {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+  border: 1px solid rgb(184, 184, 184);
+  padding: 0.25rem;
+    border-radius: 0.2rem;
+}
+
+textarea:focus{
+  background-color: rgb(241, 241, 140);
+  border-color: black;
+  color: black;
+}
+
+@media only screen and (max-width: 48rem) {
+  body {
+    padding: 3rem 5rem;
+    scroll-padding-top: 3rem;
+    text-align: left;
+  }
+
+  input {
+    width: 8rem;
+    text-align: left;
+  }
+}
